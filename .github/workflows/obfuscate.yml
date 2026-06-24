@@ -1,5 +1,6 @@
 name: Generate and Obfuscate Worker Script
-
+permissions:
+  contents: write  # 赋予写入仓库内容的权限
 on:
   workflow_dispatch:
   push:
